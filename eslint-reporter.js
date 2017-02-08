@@ -1,8 +1,10 @@
+'use strict';
+
 (function () {
 
   const shieldWrapper = require('./shields-wrapper');
 
-  module.exports = function (results = []) {
+  module.exports = function (results) {
 
     // accumulate the errors and warnings
     const summary = results.reduce(function (seq, current) {

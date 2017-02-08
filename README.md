@@ -12,7 +12,7 @@ Supported linters:
 
 ## usage
 
-    eslint file.js --reporter node_modules/reporter-badge/eslint-reporter.js > eslint-badge.svg
+    eslint file.js -f node_modules/reporter-badge/eslint-reporter.js > eslint-badge.svg
     coffeelint file.js --reporter node_modules/reporter-badge/coffeelint-reporter.js > coffeelint-badge.svg
 
 You can configure it using environment variables, for example:

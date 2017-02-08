@@ -1,3 +1,4 @@
+'use strict';
 (function () {
 
   const shieldWrapper = require('./shields-wrapper');
